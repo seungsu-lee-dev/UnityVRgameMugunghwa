@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/park_testScene.unity
+    guid: dfdcd1d67d66b2f4caf2844081a47136
+  - enabled: 0
+    path: Assets/Scenes/park_testScene.unity
+    guid: dfdcd1d67d66b2f4caf2844081a47136
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/HandTest_Custom.unity
+    guid: c884d076d6398b54492bcc64bbe30bf5
+  - enabled: 0
+    path: Assets/Oculus/Avatar/Samples/Controllers/Controllers.unity
+    guid: 2a83dd010542d2744bf59af99b4bc47c
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/ControllerModels.unity
+    guid: 39cfe7aa0a2d46c47994d8d0308ec663
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/HandTest.unity
+    guid: b9a31e08066d6e343a208d34ec298f09
+  - enabled: 0
+    path: Assets/Scenes/fixScene.unity
+    guid: 876a65c2f21cce442a1a479c699d8bfb
+  - enabled: 0
+    path: Assets/Scenes/bingdul.unity
+    guid: 0c4739ad041f9974fb2c583e3533c969
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity
+    guid: 24f58b3f0ca02d44eaec7f50bca538f2
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/su_testScene.unity
+    guid: 972cfba1706d0e84e814330e62e4a0c6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/bingdul3.unity
+    guid: b7d89d6a33a4aa7459a3b1210d525a5c
+  - enabled: 0
+    path: Assets/Scenes/bingdul4.unity
+    guid: 3cabf567de704354da9b6d6c19484a31
+  - enabled: 1
+    path: Assets/Scenes/MugunghwaScene.unity
+    guid: 1c9535a9d60590b40a920f6ad5fad06a
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 485cadde3e886c741b1a331a3144328e
+  - enabled: 1
+    path: Assets/Scenes/GameClearScene.unity
+    guid: 8c82c88c4155a5d4eb07b32ed47b5a30
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f09cc4acc4989a04fbcaa366f04cc120, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 937d4162ba771cc40bd89ffdd3289ea6, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 3559653f077582e44b0c7cb170bcada6, type: 2}

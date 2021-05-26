@@ -41,5 +41,5 @@
 # Packaging
 ArtifactDB lfs
 Clear-Sky.psd filter=lfs diff=lfs merge=lfs -text
-rough_block_wall_nor_4k.png lfs
+rough_block_wall_nor_4k.png filter=lfs diff=lfs merge=lfs -text
 6f6d2c8585dc61dd4a80282df2c9386a69bc2b lfs

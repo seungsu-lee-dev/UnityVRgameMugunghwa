@@ -1,14 +1,10 @@
 # Macro for Unity YAML-based asset files.
 [attr]unityyaml -text merge=unityyamlmerge diff
-
 # Macro for all binary files that should use Git LFS.
-
 # Default to auto-normalized line endings.
 * text=auto
-
 # Code
 *.cs text diff=csharp eol=crlf
-
 # Unity Text Assets
 *.meta unityyaml
 *.unity unityyaml
@@ -34,26 +30,16 @@
 *.shadervariants unityyaml
 *.preset unityyaml
 *.asmdef -text diff
-
 # Unity Binary Assets
-
 # Note: Unity terrain assets must have "-Terrain" suffix.
-
 # Note: Unity navmesh assets must have "-NavMesh" suffix.
-
 # Image
-
 # Audio
-
 # Video
-
 # 3D
-
 # Executables
-
 # Packaging
-
 ArtifactDB lfs
-Clear-Sky.psd lfs
+Clear-Sky.psd filter=lfs diff=lfs merge=lfs -text
 rough_block_wall_nor_4k.png lfs
 6f6d2c8585dc61dd4a80282df2c9386a69bc2b lfs

@@ -33,20 +33,8 @@ EditorBuildSettings:
     path: Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity
     guid: 24f58b3f0ca02d44eaec7f50bca538f2
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
     path: Assets/Scenes/su_testScene.unity
     guid: 972cfba1706d0e84e814330e62e4a0c6
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/bingdul3.unity
     guid: b7d89d6a33a4aa7459a3b1210d525a5c
@@ -63,6 +51,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameClearScene.unity
     guid: 8c82c88c4155a5d4eb07b32ed47b5a30
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f09cc4acc4989a04fbcaa366f04cc120, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 937d4162ba771cc40bd89ffdd3289ea6, type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 3559653f077582e44b0c7cb170bcada6, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f09cc4acc4989a04fbcaa366f04cc120,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 937d4162ba771cc40bd89ffdd3289ea6,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 3559653f077582e44b0c7cb170bcada6,
+      type: 2}

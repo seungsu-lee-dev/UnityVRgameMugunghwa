@@ -10,6 +10,7 @@ public class ClearCanvas : MonoBehaviour
     public GameObject Exit_button;
     public GameObject Canvas;
     public GameObject SettingCanvas;
+    public GameObject SettingCanvasGameObject;
     public GameObject Player;
 
     
@@ -23,6 +24,7 @@ public class ClearCanvas : MonoBehaviour
     {
         Canvas.SetActive(false);
         SettingCanvas.SetActive(true);
+        SettingCanvasGameObject.GetComponent<SettingCanvas>().Previous = PreviousCanvasState.Clear;
     }
     public void OnClickExit()
     {

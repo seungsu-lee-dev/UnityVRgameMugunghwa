@@ -9,10 +9,10 @@ public class button : MonoBehaviour
     public GameObject Exit_button;
     public GameObject Canvas;
     public GameObject SettingCanvas;
+    public GameObject SettingCanvasGameObject;
     public GameObject GameManager;
     public GameObject Player;
     private bool isPause = false;
-
     
     void Update()
     {
@@ -30,6 +30,7 @@ public class button : MonoBehaviour
     {
         Canvas.SetActive(false);
         SettingCanvas.SetActive(true);
+        SettingCanvasGameObject.GetComponent<SettingCanvas>().Previous = PreviousCanvasState.Start;
     }
     public void OnClickExit()
     {

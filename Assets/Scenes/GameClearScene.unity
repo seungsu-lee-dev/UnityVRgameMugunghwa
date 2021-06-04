@@ -4242,6 +4242,9 @@ MonoBehaviour:
   Back_button: {fileID: 1358973363}
   Canvas: {fileID: 690723314}
   StartCanvas: {fileID: 1168839155}
+  PauseCanvas: {fileID: 0}
+  ClearCanvas: {fileID: 1168839155}
+  PreviousCanvasState: 
 --- !u!4 &1047951300
 Transform:
   m_ObjectHideFlags: 0

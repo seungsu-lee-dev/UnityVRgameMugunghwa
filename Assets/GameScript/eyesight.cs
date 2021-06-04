@@ -12,7 +12,7 @@ public class eyesight : MonoBehaviour
     }
     void sight()
     {
-        Collider[] cols = Physics.OverlapSphere(transform.position, 30f, m_LayerMask);
+        Collider[] cols = Physics.OverlapSphere(transform.position, 100f, m_LayerMask);
         if (cols.Length > 0)
         {
 
@@ -26,15 +26,17 @@ public class eyesight : MonoBehaviour
 
                 if (t_angle < 75)
                 {
+                    int layerMask = (-1) - (1 << LayerMask.NameToLayer("Player"));
                     //RaycastHit[] hits = Physics.RaycastAll(transform.position, t_dir);
-                    if (Physics.Raycast(transform.position, t_dir, out RaycastHit hit))
+                    if (Physics.Raycast(transform.position, t_dir, out RaycastHit hit, Mathf.Infinity, layerMask))
                     {
-
-                        //Debug.DrawRay(transform.forward, t_dir * hit.distance, Color.red);
                         
+                        //Debug.DrawRay(transform.forward, t_dir * hit.distance, Color.red);
+
                         if (hit.transform.tag == "Enemy")
-                        {   
-                           //Debug.Log(hit.transform.name+ t_angle);
+                        {
+                            //Debug.Log(hit.transform.name + t_angle);
+                            Debug.Log("³» ÁÂÇ¥: "+transform.position+"Àû ÁÂÇ¥: "+hit.transform.position +"°¢µµ: "+ t_angle);
                             hit.transform.gameObject.GetComponent<ai123>().isActive = false;
                         }
                     }
@@ -45,7 +47,7 @@ public class eyesight : MonoBehaviour
         }
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         sight();
         

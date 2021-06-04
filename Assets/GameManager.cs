@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
     public SpaceMode SPACEMODE;
     public bool isEnemyAwake=false;
     public GameObject OverCanvas;
-    public GameObject PauseCanvas;
     public GameObject PauseCanvasGameObject;
     private static GameManager instance;
     // Start is called before the first frame update
@@ -29,18 +28,19 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         //Debug.Log(SPACEMODE);
-        if (SPACEMODE == SpaceMode.InOver)
-        {
-            //GameObject.FindWithTag("Player").GetComponent<SimpleCapsuleWithStickMovement>().enabled = false;
-            //OverCanvas.SetActive(true);
-        }
+        //if (SPACEMODE == SpaceMode.InOver)
+        //{
+        //    //GameObject.FindWithTag("Player").GetComponent<SimpleCapsuleWithStickMovement>().enabled = false;
+        //    //OverCanvas.SetActive(true);
+        //}
         if(SPACEMODE != SpaceMode.InUI)
         {
             if (Input.GetButtonDown("XRI_Left_MenuButton"))
             {
                 Debug.Log(SPACEMODE);
-                PauseCanvas.SetActive(true);
-                PauseCanvasGameObject.GetComponent<PauseCanvas>().SPACEMODE=SPACEMODE;
+                GameObject.Find("Canvas").transform.FindChild("PauseCanvas").gameObject.SetActive(true);
+                GameObject.Find("PauseCanvas").transform.FindChild("GameObject").GetComponent<PauseCanvas>().SPACEMODE = SPACEMODE;
+                //PauseCanvasGameObject.GetComponent<PauseCanvas>().SPACEMODE=SPACEMODE;
                 GameObject.Find("Player").GetComponent<SimpleCapsuleWithStickMovement>().enabled = false;
                 SPACEMODE = SpaceMode.InUI;
                 Time.timeScale = 0.0f;

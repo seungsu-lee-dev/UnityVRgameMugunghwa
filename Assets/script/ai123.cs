@@ -26,8 +26,9 @@ public class ai123 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (!ActiveMode) { return; }
-        if (!isActive) {nav.SetDestination(transform.position); isActive=true; return; }
+        if (!isActive) { Debug.Log(gameObject.name + ": " + isActive); nav.SetDestination(transform.position); isActive=true; return; }
         if (nav.destination != target.transform.position)
         {
             nav.SetDestination(target.transform.position);
@@ -43,8 +44,8 @@ public class ai123 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             ActiveMode = true;
-            GameManager.GetComponent<GameManager>().isEnemyAwake = true;
-            if (GameManager.GetComponent<GameManager>().SPACEMODE == SpaceMode.InMaze)
+            GameObject.Find("GameManager").GetComponent<GameManager>().isEnemyAwake = true;
+            if (GameObject.Find("GameManager").GetComponent<GameManager>().SPACEMODE == SpaceMode.InMaze)
             {
                 sc.radius = 1;
             }

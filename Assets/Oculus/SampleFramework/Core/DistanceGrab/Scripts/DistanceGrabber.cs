@@ -95,7 +95,6 @@ namespace OculusSampleFramework
                 Debug.LogError("m_parentHeldObject incompatible with DistanceGrabber. Setting to false.");
                 m_parentHeldObject = false;
             }
-
             DistanceGrabber[] grabbers = FindObjectsOfType<DistanceGrabber>();
             for (int i = 0; i < grabbers.Length; ++i)
             {
@@ -130,6 +129,7 @@ namespace OculusSampleFramework
                 {
                     m_target.Targeted = true;
                 }
+                
             }
         }
 
@@ -137,7 +137,7 @@ namespace OculusSampleFramework
         {
             DistanceGrabbable closestGrabbable = m_target;
             Collider closestGrabbableCollider = m_targetCollider;
-
+           
             GrabVolumeEnable(false);
 
             if (closestGrabbable != null)
@@ -145,16 +145,18 @@ namespace OculusSampleFramework
                 if (closestGrabbable.isGrabbed)
                 {
                     ((DistanceGrabber)closestGrabbable.grabbedBy).OffhandGrabbed(closestGrabbable);
+                    
                 }
 
                 m_grabbedObj = closestGrabbable;
                 m_grabbedObj.GrabBegin(this, closestGrabbableCollider);
                 SetPlayerIgnoreCollision(m_grabbedObj.gameObject, true);
-
+                 //= false;
+                
                 m_movingObjectToHand = true;
                 m_lastPos = transform.position;
                 m_lastRot = transform.rotation;
-
+                
                 // If it's within a certain distance respect the no-snap.
                 Vector3 closestPointOnBounds = closestGrabbableCollider.ClosestPointOnBounds(m_gripTransform.position);
                 if(!m_grabbedObj.snapPosition && !m_grabbedObj.snapOrientation && m_noSnapThreshhold > 0.0f && (closestPointOnBounds - m_gripTransform.position).magnitude < m_noSnapThreshhold)
@@ -357,7 +359,10 @@ namespace OculusSampleFramework
         // Just here to allow calling of a protected member function.
       protected override void OffhandGrabbed(OVRGrabbable grabbable)
         {
+            
             base.OffhandGrabbed(grabbable);
+           
         }
     }
 }
+

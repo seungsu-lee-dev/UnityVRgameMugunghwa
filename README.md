@@ -10,6 +10,6 @@
 
 개발팀 : DOT ( DO or Try )
 
-https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa/releases/download/v1.0.1/mm.apk
+https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa/releases/download/v1.0.2-alpha/Mugunghwa.apk
 
 https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa

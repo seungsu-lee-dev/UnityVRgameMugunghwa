@@ -6,7 +6,7 @@
 
 사용 프로그램 : Unity
 
-개발기간 : 2021년 3월 4일 ~ 2021년 6월 10일 (예정)
+개발기간 : 2021년 3월 4일 ~ 2021년 6월 17일 (예정)
 
 개발팀 : DOT ( DO or Try )
 
@@ -14,7 +14,7 @@ https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa/releases/download/v1.0.2
 
 https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 
-![슬라이드1](https://user-images.githubusercontent.com/68325847/120886616-db4ac000-c629-11eb-97ca-7fa638003ae4.PNG)
+![프레젠테이션1](https://user-images.githubusercontent.com/68325847/120887729-8ca02480-c62f-11eb-8b95-47085e03afb0.gif)
 
 ![슬라이드2](https://user-images.githubusercontent.com/68325847/120886646-f74e6180-c629-11eb-84f1-abde4a004a27.PNG)
 
@@ -32,15 +32,15 @@ https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 
 ![슬라이드9](https://user-images.githubusercontent.com/68325847/120886658-033a2380-c62a-11eb-941f-e34b73107890.PNG)
 
-![슬라이드10](https://user-images.githubusercontent.com/68325847/120886661-046b5080-c62a-11eb-8a59-0e117fc85409.PNG)
+![프레젠테이션10](https://user-images.githubusercontent.com/68325847/120887751-a6416c00-c62f-11eb-857a-a98914142938.gif)
 
-![슬라이드11](https://user-images.githubusercontent.com/68325847/120886663-08976e00-c62a-11eb-98e2-f3b9bd6b2738.PNG)
+![프레젠테이션11](https://user-images.githubusercontent.com/68325847/120887759-ae99a700-c62f-11eb-8f51-762636af16d5.gif)
 
 ![슬라이드12](https://user-images.githubusercontent.com/68325847/120886665-08976e00-c62a-11eb-95b5-e26ddafee731.PNG)
 
 ![슬라이드13](https://user-images.githubusercontent.com/68325847/120886664-08976e00-c62a-11eb-84c7-367c6ae3d61a.PNG)
 
-![슬라이드14](https://user-images.githubusercontent.com/68325847/120886667-09300480-c62a-11eb-82fa-a3b81288873e.PNG)
+![프레젠테이션14](https://user-images.githubusercontent.com/68325847/120887766-b5281e80-c62f-11eb-84b4-4ed760a43c42.gif)
 
 ![슬라이드15](https://user-images.githubusercontent.com/68325847/120886669-0a613180-c62a-11eb-8ba8-88457316c7bd.PNG)
 

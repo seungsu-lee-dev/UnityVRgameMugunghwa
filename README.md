@@ -14,11 +14,11 @@ https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa/releases/download/v1.0.2
 
 https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 
-![프레젠테이션1](https://user-images.githubusercontent.com/68325847/120887729-8ca02480-c62f-11eb-8b95-47085e03afb0.gif)
+![슬라이드1](https://user-images.githubusercontent.com/68325847/120886616-db4ac000-c629-11eb-97ca-7fa638003ae4.PNG)
 
 ![슬라이드2](https://user-images.githubusercontent.com/68325847/120886646-f74e6180-c629-11eb-84f1-abde4a004a27.PNG)
 
-![슬라이드3](https://user-images.githubusercontent.com/68325847/120886649-fae1e880-c629-11eb-9fd9-301beba6b802.PNG)
+![프레젠테이션1](https://user-images.githubusercontent.com/68325847/120887729-8ca02480-c62f-11eb-8b95-47085e03afb0.gif)
 
 ![슬라이드4](https://user-images.githubusercontent.com/68325847/120886650-fcabac00-c629-11eb-9f30-165c12fb9c03.PNG)
 

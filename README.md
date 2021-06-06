@@ -30,6 +30,8 @@ https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 
 ![슬라이드8](https://user-images.githubusercontent.com/68325847/120886656-0208f680-c62a-11eb-8baa-d51da47ea531.PNG)
 
+https://user-images.githubusercontent.com/68325847/120913618-46040600-c6d3-11eb-8351-a80156ef9553.mp4
+
 ![슬라이드9](https://user-images.githubusercontent.com/68325847/120886658-033a2380-c62a-11eb-941f-e34b73107890.PNG)
 
 ![프레젠테이션10](https://user-images.githubusercontent.com/68325847/120887751-a6416c00-c62f-11eb-857a-a98914142938.gif)
@@ -45,6 +47,8 @@ https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 ![슬라이드15](https://user-images.githubusercontent.com/68325847/120886669-0a613180-c62a-11eb-8ba8-88457316c7bd.PNG)
 
 ![슬라이드16](https://user-images.githubusercontent.com/68325847/120886672-0b925e80-c62a-11eb-9d42-c2c3a9527d58.PNG)
+
+https://youtu.be/Zck2qsYf59g
 
 ![슬라이드17](https://user-images.githubusercontent.com/68325847/120886674-0cc38b80-c62a-11eb-9fcd-1e856749d4e0.PNG)
 

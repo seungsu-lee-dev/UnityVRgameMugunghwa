@@ -48,7 +48,7 @@ https://user-images.githubusercontent.com/68325847/120913618-46040600-c6d3-11eb-
 
 ![슬라이드16](https://user-images.githubusercontent.com/68325847/120886672-0b925e80-c62a-11eb-9d42-c2c3a9527d58.PNG)
 
-https://youtu.be/Zck2qsYf59g
+https://youtu.be/h-m90M9smNY
 
 ![슬라이드17](https://user-images.githubusercontent.com/68325847/120886674-0cc38b80-c62a-11eb-9fcd-1e856749d4e0.PNG)
 

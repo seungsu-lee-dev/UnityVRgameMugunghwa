@@ -18,13 +18,13 @@ https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 
 ![슬라이드2](https://user-images.githubusercontent.com/68325847/120886646-f74e6180-c629-11eb-84f1-abde4a004a27.PNG)
 
-![프레젠테이션1](https://user-images.githubusercontent.com/68325847/120887729-8ca02480-c62f-11eb-8b95-47085e03afb0.gif)
+![슬라이드3](https://user-images.githubusercontent.com/68325847/120886649-fae1e880-c629-11eb-9fd9-301beba6b802.PNG)
 
 ![슬라이드4](https://user-images.githubusercontent.com/68325847/120886650-fcabac00-c629-11eb-9f30-165c12fb9c03.PNG)
 
 ![슬라이드5](https://user-images.githubusercontent.com/68325847/120886651-fddcd900-c629-11eb-9821-431e0ab8752b.PNG)
 
-![슬라이드6](https://user-images.githubusercontent.com/68325847/120886653-ff0e0600-c629-11eb-8082-8acd61ee04e3.PNG)
+![프레젠테이션1](https://user-images.githubusercontent.com/68325847/120887729-8ca02480-c62f-11eb-8b95-47085e03afb0.gif)
 
 ![슬라이드7](https://user-images.githubusercontent.com/68325847/120886655-003f3300-c62a-11eb-8f48-096416fdcc9f.PNG)
 

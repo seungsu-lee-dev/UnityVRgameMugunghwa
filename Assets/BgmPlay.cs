@@ -12,6 +12,7 @@ public class BgmPlay : MonoBehaviour
     bool isOver = false;
     public GameObject Player;
     public SpaceMode SPACEMODE;
+    bool SuzanCollide = false;
 
     public static AudioSource MusicPlay;
     // Start is called before the first frame update
@@ -67,10 +68,14 @@ public class BgmPlay : MonoBehaviour
 
         else
         {
-            if (_col.gameObject.tag == "Enemy")
+            if(SuzanCollide != true)
             {
-                playSound(SuzanBgm, MusicPlay);
-                Debug.Log(_col.gameObject.name);
+                if (_col.gameObject.tag == "Enemy")
+                {
+                    playSound(SuzanBgm, MusicPlay);
+                    Debug.Log(_col.gameObject.name);
+                    SuzanCollide = true;
+                }
             }
         }
     }

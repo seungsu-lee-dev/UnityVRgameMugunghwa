@@ -2584,7 +2584,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 9150813}
         m_TargetAssemblyTypeName: BgmPlay, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 0
@@ -4244,7 +4244,7 @@ MonoBehaviour:
   StartCanvas: {fileID: 1168839155}
   PauseCanvas: {fileID: 0}
   ClearCanvas: {fileID: 1168839155}
-  PreviousCanvasState: 
+  Previous: 0
 --- !u!4 &1047951300
 Transform:
   m_ObjectHideFlags: 0
@@ -9306,6 +9306,7 @@ MonoBehaviour:
   Exit_button: {fileID: 1464252666}
   Canvas: {fileID: 1168839155}
   SettingCanvas: {fileID: 690723314}
+  SettingCanvasGameObject: {fileID: 0}
   Player: {fileID: 9150811}
 --- !u!4 &2103431463
 Transform:

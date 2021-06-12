@@ -33,7 +33,10 @@ public class finalplayState : MonoBehaviour
                 hands[1].SetActive(false);
                 ani.enabled = true;
                 ani.Play("realcame");
-                _col.gameObject.GetComponent<BoxCollider>().enabled = false;
+                if(_col.gameObject.name == "Needle")
+                {
+                    _col.gameObject.GetComponent<BoxCollider>().enabled = false;
+                }
                 GameObject.Find("GameManager").GetComponent<GameManager>().SPACEMODE = SpaceMode.InOver;
                 Debug.Log(GameObject.Find("GameManager").GetComponent<GameManager>().SPACEMODE);
                 //SceneManager.LoadScene("GameOverScene");

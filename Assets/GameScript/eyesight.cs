@@ -26,7 +26,9 @@ public class eyesight : MonoBehaviour
 
                 if (t_angle < 75)
                 {
-                    int layerMask = (-1) - (1 << LayerMask.NameToLayer("Player"));
+                    //int layerMask = (-1) - (1 << LayerMask.NameToLayer("Player"));
+                    int layerMask = (1 << LayerMask.NameToLayer("Player"))|(1 << LayerMask.NameToLayer("Grabbale"))| (1 << LayerMask.NameToLayer("Trap"));
+                    layerMask = ~layerMask;
                     //RaycastHit[] hits = Physics.RaycastAll(transform.position, t_dir);
                     if (Physics.Raycast(transform.position, t_dir, out RaycastHit hit, Mathf.Infinity, layerMask))
                     {
@@ -37,7 +39,7 @@ public class eyesight : MonoBehaviour
                         {
                             //Debug.Log(hit.transform.name + t_angle);
                             Debug.Log("³» ÁÂÇ¥: "+transform.position+"Àû ÁÂÇ¥: "+hit.transform.position +"°¢µµ: "+ t_angle);
-                            hit.transform.gameObject.GetComponent<ai123>().isActive = false;
+                            enemy[i].transform.gameObject.GetComponent<ai123>().isActive = false;
                         }
                     }
                     

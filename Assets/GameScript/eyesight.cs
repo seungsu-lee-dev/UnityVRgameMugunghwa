@@ -27,7 +27,7 @@ public class eyesight : MonoBehaviour
                 if (t_angle < 75)
                 {
                     //int layerMask = (-1) - (1 << LayerMask.NameToLayer("Player"));
-                    int layerMask = (1 << LayerMask.NameToLayer("Player"))|(1 << LayerMask.NameToLayer("Grabbale"))| (1 << LayerMask.NameToLayer("Trap"));
+                    int layerMask = (1 << LayerMask.NameToLayer("Player"))|(1 << LayerMask.NameToLayer("Grabbable"))| (1 << LayerMask.NameToLayer("Trap"));
                     layerMask = ~layerMask;
                     //RaycastHit[] hits = Physics.RaycastAll(transform.position, t_dir);
                     if (Physics.Raycast(transform.position, t_dir, out RaycastHit hit, Mathf.Infinity, layerMask))

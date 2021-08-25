@@ -16,7 +16,7 @@
 
 담당 업무 : 주제 기획, 상세 컨셉 아이디어, 전반적인 UI, 배경음악 재생, 플레이어 죽음이벤트, 씬 전환, 게임매니저 구현, 전반적인 기능 구현한 팀원과의 짝프로그래밍, 팀장으로서 팀원 간의 협업을 도움, 테스트, 버그 수정, 최종 발표
 
-https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa/releases/download/v1.0.2-alpha/Mugunghwa.apk
+https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa/releases/tag/v1.0.5-alpha
 
 https://github.com/seungsu-lee-dev/UnityVRgameMugunghwa
 

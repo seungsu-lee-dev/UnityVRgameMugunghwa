@@ -2,13 +2,17 @@
 
 프로젝트명 : ﻿유니티를 활용한 VR게임 무궁화 꽃이 피었습니다 졸업작품 프로젝트
 
+플랫폼 : Oculus VR (Oculus Quest 2)
+
 사용 언어 : C#
 
-사용 IDE : Unity
+사용 Engine : Unity 2020.3.1f1
 
-개발기간 : 2021년 3월 4일 ~ 2021년 6월 17일 (예정)
+사용 IDE : Visual Studio 2019
 
-개발팀 : DOT ( DO or Try )
+개발기간 : 2021년 3월 4일 ~ 2021년 6월 17일
+
+개발팀 : DOT (Do Or Try) : [이승수](https://github.com/seungsu-lee-dev)(팀장), [박경인](https://github.com/igkrap), [이동희](https://github.com/bingdul), [이치형](https://github.com/ChiHyoungLee)
 
 담당 업무 : 주제 기획, 상세 컨셉 아이디어, 전반적인 UI, 배경음악 재생, 플레이어 죽음이벤트, 씬 전환, 게임매니저 구현, 전반적인 기능 구현한 팀원과의 짝프로그래밍, 팀장으로서 팀원 간의 협업을 도움, 테스트, 버그 수정, 최종 발표
 

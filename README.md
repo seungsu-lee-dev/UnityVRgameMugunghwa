@@ -50,7 +50,11 @@ https://user-images.githubusercontent.com/68325847/120913618-46040600-c6d3-11eb-
 
 ![슬라이드16](https://user-images.githubusercontent.com/68325847/120886672-0b925e80-c62a-11eb-9d42-c2c3a9527d58.PNG)
 
-https://youtu.be/h-m90M9smNY
+[original ver](https://youtu.be/h-m90M9smNY) : https://youtu.be/h-m90M9smNY
+
+[자막 ver](https://youtu.be/UxDCu8AylVM) : https://youtu.be/UxDCu8AylVM
+    
+[자막x 최종 개발 ver](https://youtu.be/40rO0Do5NC8) : https://youtu.be/40rO0Do5NC8
 
 ![슬라이드17](https://user-images.githubusercontent.com/68325847/120886674-0cc38b80-c62a-11eb-9fcd-1e856749d4e0.PNG)
 
